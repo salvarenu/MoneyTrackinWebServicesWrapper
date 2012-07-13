@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyTrackinWS", "MoneyTrackinWS.csproj", "{54F3E607-F643-4CC3-A0F5-C6B947735C98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyTrackinWS.Test", "MoneyTrackinWS.Test\MoneyTrackinWS.Test.csproj", "{0B3408D9-6A9B-4782-A5EA-B11CCDA6C298}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{93C1D087-6B43-4237-A286-7BDC1412EFBB}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		MoneyTrackinWS.vsmdi = MoneyTrackinWS.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyTrackin.Web", "..\MoneyTrackin.Web\MoneyTrackin.Web.csproj", "{3B44C6D3-238D-424D-B064-BD498435D750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyTrackin.WebTests", "..\MoneyTrackin.WebTests\MoneyTrackin.WebTests.csproj", "{0AD2CCE7-753C-4DBA-8DDB-59A286C7089D}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MoneyTrackinWS.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54F3E607-F643-4CC3-A0F5-C6B947735C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F3E607-F643-4CC3-A0F5-C6B947735C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F3E607-F643-4CC3-A0F5-C6B947735C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F3E607-F643-4CC3-A0F5-C6B947735C98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B3408D9-6A9B-4782-A5EA-B11CCDA6C298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3408D9-6A9B-4782-A5EA-B11CCDA6C298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3408D9-6A9B-4782-A5EA-B11CCDA6C298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3408D9-6A9B-4782-A5EA-B11CCDA6C298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B44C6D3-238D-424D-B064-BD498435D750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B44C6D3-238D-424D-B064-BD498435D750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B44C6D3-238D-424D-B064-BD498435D750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B44C6D3-238D-424D-B064-BD498435D750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD2CCE7-753C-4DBA-8DDB-59A286C7089D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD2CCE7-753C-4DBA-8DDB-59A286C7089D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD2CCE7-753C-4DBA-8DDB-59A286C7089D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD2CCE7-753C-4DBA-8DDB-59A286C7089D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = 830b4526-d694-4eb6-a390-fcf599fb3010
+	EndGlobalSection
+EndGlobal
