@@ -7,7 +7,7 @@ namespace MoneyTrackinWS.Test
     [TestClass]
     public class WebServicesTest
     {
-        MoneyTrackin money = new MoneyTrackin("salvarenu", "renulsmoney");
+        MoneyTrackin money = new MoneyTrackin("salvarenu", "");
 
         [TestInitialize]
         public void Init()
