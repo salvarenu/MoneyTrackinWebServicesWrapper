@@ -97,6 +97,7 @@ namespace MoneyTrackinWS
             string xmlData = clientWs.MakeRequest("listTransactions?project=" + strProjectId + "&startDate=" + strStartDate + "&endDate=" + strEndDate, _user, _password);
             XmlSerializer serialize = new XmlSerializer(typeof(ResultTransactions));
             ResultTransactions result = (ResultTransactions)serialize.Deserialize(new StringReader(xmlData));
+            if (result.Items == null) result.Items = new Transaction[0];
             return new List<Transaction>(result.Items);
         }
 
